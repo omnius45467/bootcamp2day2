@@ -1,4 +1,52 @@
 body{
-    background-image: url('/img/working.png');
-    
+    margin:40px;
+    background:#999;
+    color:#000;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    padding:50px;
+    font-size:20px;
+}
+button{
+    background:#00aeef;
+    color:#fff;
+}
+
+ul{
+    text-decoration:none;
+    list-style: none;
+
+}
+li{
+    float:right;
+    padding-right:50px;
+}
+
+img{
+    max-width:100%;
+
+
+}
+section{
+    padding:50px;
+
+}
+aside{
+    float:left;
+    display:inline;
+    margin-top:50px;
+    padding:50px;
+    min-width:100px;
+}
+main{
+    margin-top:50px;
+    float:left;
+    display:inline;
+    min-width:500px;
+}
+footer{
+    padding:50px;
+    margin-top:50px;
 }
